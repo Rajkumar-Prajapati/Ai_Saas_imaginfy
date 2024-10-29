@@ -27,7 +27,7 @@ export const connectToDatabase = async () => {
 
   // Create a new connection promise if there is no cached promise
   cached.promise = cached.promise || mongoose.connect(MONGODB_URI, {
-    dbName: 'evently', // Database name
+    dbName: ' Imaginefy', // Database name
     bufferCommands: false,
   });
 
